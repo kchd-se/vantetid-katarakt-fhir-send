@@ -33,8 +33,10 @@ Alla andra värden i filen är redan korrekt ifyllda.
 1. Öppna ert SSIS-paket (.dtsx) i Visual Studio
 2. I **SSIS Toolbox** (vänster sida): dra **Script Task** till **Control Flow**-ytan
 3. Dubbelklicka på det nya Script Task:et
-4. I dialogrutan som öppnas: klicka **Edit Script...**
-5. Visual Studio öppnar nu en kodredigerare (VSTA)
+4. I fältet **ReadOnlyVariables**: skriv `System::PackageDirectory`
+5. Klicka **Edit Script...**
+6. Visual Studio öppnar nu en kodredigerare (VSTA)
+
 
 ## Steg 2: Lägg till referenser
 
