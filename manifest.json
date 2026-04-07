@@ -1,0 +1,21 @@
+{
+  "name": "vantetid-katarakt-fhir-send",
+  "version": "1.0.0",
+  "description": "Skickar FHIR MeasureReport-bundles till Nationella Hubben via SSIS",
+  "organization": "kchd-se",
+  "type": "ssis-integration",
+  "depends": [
+    {
+      "name": "vantetid-katarakt-fhir",
+      "minVersion": "1.0.0",
+      "description": "Producerar fhir_bundle.json som denna komponent skickar"
+    }
+  ],
+  "regions": {
+    "vgr": {
+      "name": "Västra Götalandsregionen",
+      "status": "verifiering",
+      "platform": "SSIS / SQL Server 2019 / Visual Studio 2022"
+    }
+  }
+}
